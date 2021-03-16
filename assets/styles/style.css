@@ -1,0 +1,344 @@
+body{
+    margin:0px auto;
+    width: 100%;
+    background-color: #27104e;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav ul li{
+    list-style-type:none;
+    float:left;
+    padding-right: 2.5em;
+    color: #ddacf5;
+    font-size: 18px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ddacf5;
+}
+nav ul{
+    float: right;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #1f306e;
+    position: fixed;
+    border: 1.5px solid black;
+}
+section{
+    background-color: #27104e;
+    color:#ddacf5;
+    width: 100%
+}
+.home{  
+    padding-top:50px;
+    width:100%;
+    height: 100vh;
+    text-align: center;
+    font-size:47px; 
+    background-image: url(https://image.freepik.com/free-photo/abstract-violet-background-illustration-beautiful-art-graphic-texture-modern-design_1715-2071.jpg);
+    display: table;
+    color: #eabfff;
+}
+.home .inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.home .inner img{
+    border-radius: 13%;
+    height: 380px;
+    width:auto;
+    border: 3px solid black ;
+}
+
+.about{
+   display: table;
+    height: 100vh;
+    width:100%;
+    background-image: url(https://image.freepik.com/free-vector/purple-equalizer-pattern-background-vector_53876-63132.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .inner{
+    display: table-cell;
+    width: 70%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.about .inner h1{
+    color: #9854cb;
+    font-size: 45px;
+}
+.about .inner p{
+    font-size: 23px;
+    line-height: 40px;
+}
+
+.education {
+  padding-top:50px;
+    width: 100%;
+    height:100vh;
+}
+
+.education  h1{
+  padding-left:50px;
+    font-size: 45px;
+     color: #9854cb;
+  
+}
+.education .school h1 , .college h1{
+ 
+    font-size: 34px; 
+}
+.education  h2{
+    font-size: 28px;
+    color: #9854cb;
+}
+.education  h3{
+    font-size: 23px;
+}
+.education .school img , .college img{
+    height: 250px;
+    width:auto;
+    border: 3px solid black ;
+}
+.education ul{
+    float: left;
+}
+.education ul li{
+    list-style-type:none;
+    float:left;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.skills{
+    background-image: url(https://image.freepik.com/free-photo/outer-space-background_53876-90868.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    
+    }
+.skills div{
+  padding-top:50px;
+  padding-left:50px;
+  height: 100vh;
+}
+.skills h1{
+     font-size: 45px;
+     color: #9854cb;
+     padding-bottom: 50px;
+}
+.skills ul li{
+    float: left;
+    list-style-type:none;
+    font-size: 30px;
+    padding-left: 150px;
+    padding-right: 100px;
+   
+}
+.hobbies{
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://image.freepik.com/free-vector/abstract-purple-background_1057-4682.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hobbies .inner{
+  padding-top:50px;
+  padding-left:50px;
+}
+.hobbies .inner  h1{
+     color:  #210f3d;
+    font-size: 45px;
+    padding-bottom: 50px;
+}
+.hobbies .inner div{
+    padding-left: 130px;
+    padding-right: 110px;
+    float: left;
+    text-align: center;
+}
+.hobbies .inner div p{
+    font-size: 33px;
+}
+.hobbies .inner img{
+    width:190px;
+    height: 190px;
+    border: 3px solid black;
+}
+
+.contact{
+    background-image: url(https://www.desktopbackground.org/download/1680x1050/2011/07/19/236600_purple-gradient-backgrounds_1920x1080_h.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    float: left;
+    padding-top:50px;
+    width: 100%;
+   
+}
+.contact div{
+  padding-left:50px;
+   height:100vh;
+  }
+.contact h1{
+     font-size: 45px;
+     color: #27104e;
+    padding-bottom: 30px;
+}
+.contact ul li img{
+    border-radius: 80%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+}
+.contact ul li a{
+    text-decoration: none;
+    color: #27104e;
+}
+.contact ul li{
+    list-style-type:none;
+    font-size: 25px;
+    float:left;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    color: #27104e;
+    text-align: center;
+}
+
+
+
+@media (min-width:320px) and (max-width:767px){
+        .section{
+            width: 100%
+        }
+      nav ul li{
+        padding-right: 10px;
+        font-size: 12px;
+        padding-bottom: 10px;
+      } 
+      nav ul{
+        float:initial;
+      }  
+      nav{
+          height: 45px;
+      }
+
+    section{
+    width: 100%
+    }
+
+    .home{  
+        padding-top:60px;
+        width:100%;
+        height: 100vh;
+        text-align: center;
+        font-size:43px;
+    }
+    .home .inner{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .home .inner img{
+        border-radius: 13%;
+        height: 380px;
+        width:auto;
+        border: 3px solid black ;
+    }
+    .eduation{
+      padding-left:0px;
+      text-align: left;
+    }
+      .education  h1{
+      padding-left:20px;
+      font-size: 35px;
+      padding-bottom: 0px;
+             
+    }
+    .eduation ul li{
+      text-align: left;
+    }
+    .education .school h1 , .college h1{
+      padding-left: 0px;
+        font-size: 28px;
+        text-align: left;
+    }
+    .education  h2{
+        font-size: 20px;
+        text-align: left;
+    }
+    .education  h3{
+      text-align: left;
+        font-size: 17px;
+    }
+    .education .school img , .college img{
+      height:80px;
+      width:auto;
+      align-content: left;
+    }
+
+
+    .skills h1{
+      padding-top: 10px;
+        font-size:38px;
+        padding-bottom: 10px;
+    }
+    .skills ul li{
+        font-size: 23px;
+        padding-left:20px;   
+        padding-bottom: 20px;
+        text-align: left;
+    }
+
+    .hobbies .inner div{
+        padding-left: 30px;
+        padding-right: 40px;
+        text-align: left;
+    }
+    .hobbies .inner div p{
+        font-size: 20px;
+    }
+    .hobbies .inner img{
+        width:100px;
+        height: 100px;
+    }
+
+.contact{
+    padding-top:30px;
+}
+.contact div{
+  padding-left:10px;
+}
+.contact h1{
+     font-size: 36px;
+    padding-bottom: 20px;
+}
+.contact ul li img{
+    width: 60px;
+    height: 60px;
+}
+.contact ul li{
+    font-size: 18px;
+    padding-bottom:50px;   
+    text-align: left;
+}
+
+ /*
+  .contact {
+        text-align: center;
+        padding: 20px;
+    }
+    .contact ul li{
+        padding: 20px;        
+    }
+    nav{
+        height: 70px;
+    }
+    nav ul li{
+        padding-bottom: 7px;
+    }*/
+}
